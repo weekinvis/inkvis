@@ -1,4 +1,5 @@
 #include "fmap.h"
+#include <inttypes.h> // uint64_t
 
 // Funcao que transforma uma string em um int e faz o Hash.
 uint64_t
