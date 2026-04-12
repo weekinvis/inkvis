@@ -14,6 +14,5 @@ add_executable(inkvis
 	src/fmap.c  
 	src/fparser.c  
 	src/ftokenizer.c  
-	src/erros.c
-	src/main.c
+	src/ferros.c
 )
