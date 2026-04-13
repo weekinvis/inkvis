@@ -5,7 +5,7 @@
 uint64_t
 hash_key(const char * key)
 {
-	uint64_t hash = 0;
+	uint64_t hash = FNV_OFFSET;
 
 	for(const char * k = key; (*k) != '\0'; key++)
 	{
