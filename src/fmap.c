@@ -1,7 +1,7 @@
 #include "fmap.h"
 #include <inttypes.h> // uint64_t
 
-// Funcao que transforma uma string em um int e faz o Hash.
+// Funcao que transforma uma string em um uint64_t atraves do Hash.
 uint64_t
 hash_key(const char * key)
 {
