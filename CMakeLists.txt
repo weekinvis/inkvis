@@ -10,9 +10,4 @@ add_compile_options(-Wall -Wextra -Werror)
 
 add_executable(inkvis
 	src/main.c
-	src/feval.c  
-	src/fmap.c  
-	src/fparser.c  
-	src/ftokenizer.c  
-	src/ferros.c
 )
